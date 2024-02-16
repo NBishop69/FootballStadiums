@@ -9,7 +9,7 @@
 //Get the parent div element
 const parentDiv = document.querySelector('.littlePics');
 //Select all the image elements inside the parent div
-const images=parentDiv.querySelectorAll('#littlePic');
+const images=parentDiv.querySelectorAll('.littlePic');
 //loop through the images and assign tabindex
 images.forEach((image)=>{
   image.setAttribute('tabindex','0');
